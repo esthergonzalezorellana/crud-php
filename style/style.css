@@ -1,0 +1,48 @@
+body {
+    background-image: url(../img/wallpaper.jpg);
+    background-repeat: cover no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+@font-face {
+    font-family: 'Avengeance_Hero';
+    src: url(../font/AVENGEANCE\ HEROIC\ AVENGER.ttf);
+}
+
+h1 {
+    font-family: 'Avengeance_Hero';
+    color: white;
+}
+
+nav {
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-family: 'Avengeance_Hero';
+    display: flex;
+    border-radius: 20px;
+}
+
+nav a {
+    padding-right: 50px;
+    padding-left: 50px;
+    color: black;
+}
+
+.boton-atras {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
